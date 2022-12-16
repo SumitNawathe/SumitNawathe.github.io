@@ -14589,7 +14589,24 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     init_mathjax();
     </script>
     <!-- End of mathjax configuration -->
-<link rel="stylesheet" href="custom.css">
+<style>
+div#notebook{
+margin-top:50px;
+margin-bottom:100px;
+}
+div.cell{
+max-width:60em;
+margin-left:auto;
+margin-right:auto;
+}
+div.input_prompt, div.output_prompt, div.prompt {
+margin-left:-11ex;
+}
+div.input, div.output_wrapper{
+margin-top:1em;
+margin-bottom:1em;
+}
+</style>
 </head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
